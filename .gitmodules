@@ -1,0 +1,6 @@
+[submodule "godot-cpp"]
+	path = godot-cpp
+	url = https://github.com/godotengine/godot-cpp.git
+[submodule "sudoku_lib"]
+	path = sudoku_lib
+	url = https://github.com/dudozermaks/sudoku_lib.git
