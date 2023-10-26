@@ -35,8 +35,6 @@ void Sudoku::make_solved_copy() {
 }
 
 bool Sudoku::is_right_clue_to_place(godot::Vector2i pos, int clue) {
-	UtilityFunctions::print(solved_copy.get_clues()[::Sudoku::Pos{pos.x, pos.y}]);
-	UtilityFunctions::print(pos);
   return solved_copy.get_clues()[::Sudoku::Pos{pos.x, pos.y}] == clue;
 }
 
